@@ -477,7 +477,9 @@ body {
 	margin-right: 40px;
 	padding: 10px 0;
 }
-
+.form-letter__input:focus{
+	outline: none;
+}
 .form-letter__input::placeholder {
 	color: var(--white);
 }
@@ -490,6 +492,10 @@ body {
 	font-weight: 500;
 	padding: 18px 32px;
 	border-radius: 32px;
+	transition: background-color 0.2s ease 0s;
+}
+.form-letter__btn:hover {
+	background-color: rgb(225, 219, 219);
 }
 
 .footer {
